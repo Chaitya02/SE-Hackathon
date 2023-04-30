@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "hackathons",
+      "patterns": [
+        "Which hackathons do you have?",
+        "What kinds of hackathons are there?",
+        "What organisations do you support?",
+        "hackathon",
+        "upcoming hackathons?",
+        "find hackathons"
+      ],
+      "responses": [
+        "We have a wide range of hackathons by different institutions. You can find personalised ones here: hackathon_link",
+        "We are a platform which supports hackathons organised by colleges and companies. Click here for more info: hackathon_link",
+        "A host of hackathons are available on our platform. To keep yourself updated about the newest ones, click here: hackathon_link"
+      ]
+    },
+    {
+      "tag": "project management",
+      "patterns": [
+        "How to store code?",
+        "Where can I upload projects",
+        "upload",
+        "project",
+        "manage"
+      ],
+      "responses": [
+        "Our platform allows you to manage your projects effortlessly using our very own in-house ProjectManager. Click here to know more: project_link",
+        "You can upload your projects on ProjectManager which helps to faciltate effective teamwork. Click here for more info: project_link",
+        "ProjectManager is a great place to store and manage your projects and codes all in one place. You can check it out here: project_link"
+      ]
+    },
+    {
+      "tag": "socialise",
+      "patterns": [
+        "Where can I connect with other developers?",
+        "How do I make a team of coders? ",
+        "I am looking for a team.",
+        "Can you help me find a team?",
+        "team",
+        "connect",
+        "coders",
+        "developers",
+        "hackers",
+        "teammates",
+        "fellow"
+      ],
+      "responses": [
+        "You can make use of the search bar, easily accessible at the top of any page. This will let you connect with fellow developers whom you can send team requests to.",
+        "The search bar will help you find coders who match your domain of interest. ",
+        "In order to find coders with similar interests, click the search bar at the top. Then you can find team members whom you can send requests to."
+      ]
+    },
+    {
+      "tag": "skill up",
+      "patterns": [
+        "How to enhance",
+        "How do I win ",
+        "How to improve",
+        "How to get better",
+        "skill"
+      ],
+      "responses": [
+        "Depending on your domain, we can connect you with the relevant skill building courses. Click the appropriate link based on your domain - ML: MLlink , WebDev: WebLink, AppDev: AppLink",
+        "You can improve your skills and win hackathons by taking courses which will give you hands on experience. Click the link according to your interest - ML: MLlink , WebDev: WebLink, AppDev: AppLink"
+      ]
+    },
+    {
+      "tag": "leaderboard",
+      "patterns": [
+        "Is there a leaderboard?",
+        "leaderboard",
+        "rewards",
+        "rating",
+        "level",
+        "score",
+        "achievements",
+        "accomplishment",
+        "victory",
+        "prize"
+      ],
+      "responses": [
+        "Our website provides an active leaderboard system to improve gamification. Click here to know more: GameLink",
+        "The leaderboard on our website provides you with the opportunity to win amazing prizes. Click the link according to your interest: GameLink",
+        "Climb the leaderboard... and win big!! Click this link to find out more: GameLink"
+      ]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "What are supported features?",
+        "What services do you provide?",
+        "Why should I use your website?",
+        "feature"
+      ],
+      "responses": [
+        "We provide various features ranging from connecting you with like-minded developers to givng you the latest information about hackathons",
+        "Our features include providing connectivity between coders, informing about hackathons and helping novice developers enhance their skills",
+        "On our website you can find a wealth of features such as connecting you with like-minded coders and letting you form a team to tackle hackathons, completete with seamless collaboration in code."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "bored"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why was 6 afraid of 7? Because 7 8 9"
+      ]
+    },
+    {
+      "tag": "ML",
+      "patterns": [
+        "I am interested in ML",
+        "I want to learn Machine Learning",
+        "Machine learning and articial intelligence is so interesting. Don't you agree?",
+        "Yay I am so excited to learn AI and ML!",
+        "ML"
+      ],
+      "responses": [
+        "You should definitely pursue your interest in ML by clicking here: ML Link1",
+        "ML is becoming increasingly in demand. You can learn more by clicking here: ML Link2",
+        "ML is a pre-requisite to AI, and we all know how cool that is. Learn more here: ML Link3"
+      ]
+    },
+    {
+      "tag": "Web Dev",
+      "patterns": [
+        "I am interested in Web dev",
+        "Web Dev",
+        "I want to learn Web Development",
+        "Website Development is so interesting. Don't you agree?"
+      ],
+      "responses": [
+        "It is a great idea to become an adept web developer. You can progress towards that by clicking here: Web Dev Link1",
+        "Website Development is an in-demand skill by many top companies. Be industry prepared by clicking here: Web Dev Link2"
+      ]
+    },
+    {
+      "tag": "App Dev",
+      "patterns": [
+        "I am interested in App dev",
+        "App Dev",
+        "I want to learn App Development",
+        "Application Development is so interesting. Don't you agree?"
+      ],
+      "responses": [
+        "Apps are incredibly handy and useful. You can become a skilled app developer by clicking here: App dev Link1",
+        "App Development is valued by many elite companies. Stand out from the crowd by becoming a confident app developer by clicking here: App dev Link2"
+      ]
+    },
+    {
+      "tag": "Blogs",
+      "patterns": [
+        "blog",
+        "articles",
+        "read",
+        "knowledge",
+        "increase my knowledge",
+        "learn",
+        "coders",
+        "learn from skilled persons"
+      ],
+      "responses": [
+        "You can check out our highly informative Blog section here: Blog Link1",
+        "Want to learn from skilled experts and seniors? Be sure to read articles by them in our very own Blog section! Details here: Blog Link2",
+        "Vist the blog section and be amazed at the wealth of experience available here: Blog Link2"
+      ]
+    },  
+    {
+      "tag": "Video Calls",
+      "patterns": [
+        "is video conferencing there?",
+        "video",
+        "call",
+        "facetime",
+        "speak face to face"
+      ],
+      "responses": [
+        "Yes our platform supports video conferencing between team members for greater co-ordination. Click here to know more: Link VidC",
+        "You can know more about the tremendously helpful video conferencing provided by us here: Link VidC2"
+      ]
+    },
+    {
+      "tag": "Noobie",
+      "patterns": [
+        "begin",
+        "I am new",
+        "new",
+        "what do I do",
+        "first",
+        "begin",
+        "start"
+      ],
+      "responses": [
+        "You can start by looking at skill building courses. These links are according to domains - ML: MLlink , WebDev: WebLink, AppDev: BeginLink",
+        "You can begin your journey by looking at some skill building courses. These links are according to domains - ML: MLlink , WebDev: WebLink, AppDev: BeginLink",
+        "Vist the blog section and get a taste of the wealth of experience available here: BeginLink2"
+      ]
+    }
+  ]
+}
