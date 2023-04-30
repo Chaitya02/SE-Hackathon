@@ -1,0 +1,54 @@
+.profile {
+    text-align: center;
+}
+
+.user-img {
+    float: left;
+    margin: 3%;
+}
+
+h6{
+    font-size: 1.5rem;
+    margin: 1%;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.user-info {
+    margin: 2%;
+    margin-left: 350px;
+    padding-top: 60px;
+}
+
+.img-size {
+    height: 200px;
+}
+
+.t{
+    margin: 5% auto;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.ttt{
+    color: #19A7CE;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.btn-c {
+    background-color: #19A7CE;
+    color: black;
+    border: 3px solid #146C94;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.btn-c:hover {
+    background-color: #000;
+    color: white;
+}

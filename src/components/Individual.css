@@ -1,0 +1,22 @@
+.tt {
+    margin: 5%;
+    font-size: 1rem;
+    color: #19A7CE;
+    font-weight: bolder;
+}
+
+.form-check-input {
+    border: 2px solid ;
+}
+
+.c1{
+    color: #146C94;
+}
+
+.btn-c{
+    margin: 2%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}

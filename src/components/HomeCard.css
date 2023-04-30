@@ -1,0 +1,20 @@
+.card {
+    margin: 2%;
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+.card-img-top{
+    padding: 20%;
+    padding-top: 2%;
+}
+
+h3{
+    text-align: center;
+    text-shadow: 10px;
+}
+
+.card-title{
+    color: #000;
+}

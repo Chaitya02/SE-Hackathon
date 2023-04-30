@@ -1,0 +1,18 @@
+.items-center{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 3%;
+    box-shadow: 1.8px 1.8px 1.8px 3px #F6F1F1;
+}
+
+.btn-loginS {
+    margin: 3%;
+}
+
+.block{
+    font-weight: bold;
+}
